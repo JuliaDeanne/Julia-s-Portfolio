@@ -1,0 +1,302 @@
+/* Body Section */
+body{
+    background-color: black;
+    /* background-image: url("https://c.tenor.com/5K5_SlXFOAwAAAAC/slowly-moving.gif"); */
+    height: auto;
+    
+  }
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #97C1A9;
+    border-radius: 20px;
+  }
+  /* my profile image */
+  .img-fluid-me{ 
+    border-radius: 5px;
+    height: 60vh;
+    box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+  }
+  .qr{
+    height: 40vh;
+  }
+
+  /* ------------------------- 
+       About Section 
+  -------------------------  */
+  #hero {
+    padding-top: 100px;
+    padding-left: 150px; 
+    background: linear-gradient(rgba(78, 64, 57, 0.95) 15%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.95;
+  }
+  /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+  @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) {
+      .img-fluid-me{ 
+        height: 50vh;
+      }
+    #hero {
+      padding-top: 40px;
+      padding-left: 100px;
+    }
+    .about{
+      margin: 0px 10px 0px 10px;
+    }
+   
+}
+ /* ----------- iPhone X  ----------- */
+ @media only screen 
+ and (min-device-width: 375px) 
+ and (max-device-width: 812px) 
+ { 
+  .img-fluid-me{ 
+    height: 50vh;
+  }
+ 
+}
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+    .img-fluid-me{ 
+      height: 60vh;
+    }
+    #hero {
+      padding-top: 60px;
+      padding-left: 120px;
+    }
+    .about{
+      margin: 0px 10px 0px 10px;
+    }
+    
+}
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 740px){
+    /*top, right, bottom, left*/
+    .img-fluid-me{ 
+      height: 52vh;
+    }
+    .about{
+      margin: 0px 10px 0px 10px;
+    }
+    #hero {
+      padding-top: 40px;
+      padding-left: 20px;
+    }
+  }
+
+
+/* Css */
+  #hero h1{
+    font-size: 45px;
+    font-weight: bold;
+  }
+  #hero h4{
+    font-size: 32px;
+    font-weight: lighter;
+  }
+  #hero h1, h4{
+    font-family: "Open sans", sans-serif;
+    color: white;
+  }
+  #hero h3{
+    font-family: "Open sans", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #97C1A9;
+  }
+  
+  #hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #97C1A9;
+  }
+  #hero .btn-get-started:hover {
+    background: #15ab88;
+  }
+
+  /* ------------------
+   About mid section
+   --------------------- */
+  .about{
+    padding-top: 120px;
+    
+  }
+  #main{
+    color: white;
+  }
+  #main h2{
+    color:#97C1A9;
+    font-family: "Open sans", sans-serif;
+    font-weight: bold;
+  }
+  #main h3{
+    font-family: "Open sans", sans-serif;
+    color: gray;
+    
+  }
+  #main p{
+    color:white;
+    font-family: "Open sans", sans-serif;
+    text-align: justify;
+  }
+ 
+  #about .btn-primary {
+    font-family: "Open sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 3px;
+    margin-top: 5px;
+    transition: 0.5s;
+    color: #fff;
+    background: gray;
+  }
+  #about .btn-primary:hover {
+    background: darkgray;
+  }
+  #about .btn-secondary {
+    font-family: "Open sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 5px;
+    color: #fff;
+    background: #97C1A9;
+  }
+  #about .btn-secondary:hover {
+    background: #15ab88;
+  }
+
+  #about .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+
+/*--------------------------------------------------------------
+# art
+--------------------------------------------------------------*/
+.art {
+  /* background: #fff; */
+  padding: 120px 10px;
+  text-align: center;
+}
+.art h2 {
+  color: #97C1A9;
+  
+}
+.art p {
+  color: white;
+}
+.art hr {
+  color: white;
+}
+.art .character {
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  height: 90%;
+}
+.art .character .character-info {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+.art .character .character-info-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: bottom 0.4s;
+}
+.art .character .character-info-content h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+.art .character .character-info-content span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+.art .character:hover .character-info {
+  background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
+  opacity: 1;
+  transition: 0.4s;
+}
+/* NAVBAR */
+.navbar .navbar-nav .nav-link:hover {
+  color: white;
+}
+.navbar .navbar-nav .nav-link {
+  color: #97C1A9;
+  font-size: 1.1em;
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.7em;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0;
+  }
+  
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #97C1A9;
+  width: 0%;
+  content: "";
+  height: 4px;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+  
+}
+/* FOOTER */
+.footer-link:hover{
+  color:#15ab88;
+  
+}
+.footer-link{
+  text-decoration: none;
+  color: #97C1A9;
+}

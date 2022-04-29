@@ -1,0 +1,104 @@
+.contact-form {
+    padding-top: 60px;
+    margin-bottom: 60px;
+    color: white;
+    
+  }
+  
+  .contact-form .form-control {
+    background-color: transparent;
+    border: 1px solid white;
+    height: 60px;
+    width: 75%;
+    color: white;
+  }
+  
+  .contact-form textarea.form-control {
+    padding: 10px;
+    height: 120px;
+    
+  }
+  
+  .contact-form input:hover,
+  .contact-form textarea:hover,
+  #contact-submit:hover {
+    border-color: #97C1A9;
+  }
+  
+  #contact-submit {
+    border: 1px solid rgba(236, 239, 241, 0.07);
+    background: #97C1A9;
+   
+    padding: 12px 0;
+    width: 75%;
+    margin: 0;
+  }
+  
+  
+  
+  .contact-info p {
+    margin-bottom: 25px;
+  }
+  .contact{
+      height: 650px;
+      padding-top: 100px;
+      padding-bottom: 200px;
+      color: white;
+      
+  }
+  .contact h1, h2{
+      color: #97C1A9;
+  }
+  .contact h2{
+    padding-bottom: 30px;
+  }
+  
+  .contact h3, h4{
+    color: #fff;
+  }
+  .contact h3{
+    padding-bottom: 30px;
+    font-size: 25px;
+  }
+  
+  .contact h4{
+    font-size: 18px;
+  }
+  .bi-facebook, .bi-linkedin{
+    color: gray;
+    font-size: 25px;
+    padding-right: 10px;
+    
+  }
+  .icon{
+    display: inline-block;
+  }
+  .bi-facebook:hover, .bi-linkedin:hover{
+    color: #97C1A9;
+  }
+  
+  
+  
+  
+  
+    #contacts .btn-secondary {
+     
+      font-family: "Open sans", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 28px;
+      border-radius: 3px;
+      transition: 0.5s;
+      margin-top: 5px;
+      color: #fff;
+      background: #97C1A9;
+    }
+    #contacts .btn-secondary:hover {
+      background: #15ab88;
+    }
+  
+    #contacts .animated {
+      animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    }
