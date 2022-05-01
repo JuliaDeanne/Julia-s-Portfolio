@@ -23,7 +23,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col-lg-6 order-1 order-lg-2 hero-img">
-          <img src={myimage} className="img-fluid-me" alt=""/>
+          <img src={myimage} className="img-fluid-me" alt="Responsive"/>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@ const AboutMe = () => {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-            <img src={qr} className="qr" alt=""/>
+            <img src={qr} className="qr" alt="Qr Code"/>
           </div>
           <div className="col-lg-6 pt-5 pt-lg-0">
             <h2>Personal & Professional Background</h2>
@@ -82,7 +82,7 @@ const AboutMe = () => {
         <div className="row">
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="character">
-              <img src={joker} className="img-fluid" alt="joker gif"/>
+              <img src={joker} className="img-fluid" alt="art gif"/>
               <div className="character-info">
                 <div className="character-info-content">
                   <h4>Joker</h4>
@@ -93,7 +93,7 @@ const AboutMe = () => {
           </div>
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="character">
-              <img src={catwoman} className="img-fluid" alt="joker gif"/>
+              <img src={catwoman} className="img-fluid" alt="art gif"/>
               <div className="character-info">
                 <div className="character-info-content">
                   <h4>CatWoman</h4>
@@ -104,7 +104,7 @@ const AboutMe = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="character">
-              <img src={ursula} className="img-fluid" alt="joker gif"/>
+              <img src={ursula} className="img-fluid" alt="art gif"/>
               <div className="character-info">
                 <div className="character-info-content">
                   <h4>Ursula Corbero</h4>
@@ -115,7 +115,7 @@ const AboutMe = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="character">
-              <img src={camille} className="img-fluid" alt="joker gif"/>
+              <img src={camille} className="img-fluid" alt="art gif"/>
               <div className="character-info">
                 <div className="character-info-content">
                   <h4>Camille Razat</h4>

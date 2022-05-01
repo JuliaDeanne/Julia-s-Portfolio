@@ -11,11 +11,11 @@ import Footer from './components/Footer';
 
 
 //Router DOM
-import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
+import { Routes, Route, Link , BrowserRouter } from "react-router-dom";
 
 function App() {
  
-  return (
+ return (
     <>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
@@ -29,7 +29,9 @@ function App() {
       </Routes>
     </BrowserRouter>
     <Footer />
+    
     </>
+    
   );
 }
 

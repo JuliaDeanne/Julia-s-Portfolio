@@ -1,5 +1,3 @@
-
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -36,7 +34,7 @@ const Resume = () => {
  <div className="container-fluid">
   <div className="row">
    <div className="col-md-6 padding-0 ">
-    <img className="img2-responsive" src={code} alt=""/>
+    <img className="img2-responsive" src={code} alt="code gif"/>
    </div>
    <div className="col-md-6">
     <div className="content-block">
@@ -46,7 +44,7 @@ const Resume = () => {
      <h2>Experience</h2>
      <div className="media">
         
-         <img className="telus" src={telus}/>
+         <img className="telus" src={telus} alt="TELUS logo"/>
         
         <div className="media-body">
          <h4 className="media-heading">TELUS International Philippines Inc.</h4>
@@ -61,7 +59,7 @@ const Resume = () => {
       <h2>Education</h2>
       <div className="media">
         
-         <img className="school" src={ust}/>
+         <img className="school" src={ust} alt="UST logo"/>
         
         <div className="media-body">
          <h4 className="media-heading">University of Santo Tomas</h4>
@@ -79,7 +77,7 @@ const Resume = () => {
       <div className="media">
 
         <div className="pull-left">
-         <img className="sunlife" src={sunlife}/>
+         <img className="sunlife" src={sunlife} alt="SunLife logo"/>
         </div>
         <div className="media-body">
          <h4 className="media-heading">Sunlife Philippines</h4>
@@ -92,7 +90,7 @@ const Resume = () => {
       <div className="col-md-6">
       <div className="media">
         <div className="pull-left">
-         <img className="school" src={ue}/>
+         <img className="school" src={ue} alt="UE logo"/>
         </div>
         <div className="media-body">
          <h4 className="media-heading">University of the East Manila</h4>
@@ -109,7 +107,7 @@ const Resume = () => {
  </div>
 </section>
    
-<section id="services" className="bg-one section">
+<section id="skills" className="bg-one section">
  <div className="container">
   <div className="row">
    
@@ -119,8 +117,8 @@ const Resume = () => {
    </div>
   
    <article className="col-md-4 col-sm-6 col-xs-12">
-    <div className="service-block text-center">
-     <div className="service-icon text-center">
+    <div className="skills-block text-center">
+     <div className="skills-icon text-center">
           <i className="bi bi-code-slash"></i>
      </div>
      <h3>Coding Languages</h3>
@@ -129,8 +127,8 @@ const Resume = () => {
    </article>
            
    <article className="col-md-4 col-sm-6 col-xs-12">
-    <div className="service-block text-center">
-     <div className="service-icon text-center">
+    <div className="skills-block text-center">
+     <div className="skills-icon text-center">
           <i className="bi bi-layers-fill"></i>
      </div>
      <h3>Responsive Design</h3>
@@ -139,8 +137,8 @@ const Resume = () => {
    </article>
            
    <article className="col-md-4 col-sm-6 col-xs-12">
-    <div className="service-block text-center">
-     <div className="service-icon text-center">
+    <div className="skills-block text-center">
+     <div className="skills-icon text-center">
           <i className="bi bi-brush"></i>
      </div>
      <h3>Graphic | UI Design </h3>
@@ -149,8 +147,8 @@ const Resume = () => {
    </article>
   
    <article className="col-md-4 col-sm-6 col-xs-12">
-    <div className="service-block text-center">
-     <div className="service-icon text-center">
+    <div className="skills-block text-center">
+     <div className="skills-icon text-center">
           <i className="bi bi-window-dock"></i>
      </div>
      <h3>Apps Development</h3>
@@ -159,8 +157,8 @@ const Resume = () => {
    </article>
    
    <article className="col-md-4 col-sm-6 col-xs-12">
-    <div className="service-block text-center">
-     <div className="service-icon text-center">
+    <div className="skills-block text-center">
+     <div className="skills-icon text-center">
           <i className="bi bi-server"></i>
      </div>
      <h3>Database Application</h3>
@@ -169,8 +167,8 @@ const Resume = () => {
    </article>
   
    <article className="col-md-4 col-sm-6 col-xs-12">
-    <div className="service-block text-center kill-margin-bottom">
-     <div className="service-icon text-center">
+    <div className="skills-block text-center kill-margin-bottom">
+     <div className="skills-icon text-center">
           <i className="bi bi-hdd-network"></i>
      </div>
      <h3>Network Technologies</h3>
@@ -197,18 +195,18 @@ const Resume = () => {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        classNameName="mySwiper"
+        className="mySwiper"
       >
         
-        <SwiperSlide><img src={devops} alt="udemy certificate"/></SwiperSlide>
-        <SwiperSlide><img src={projmanage} alt="udemy certificate"/></SwiperSlide>
-        <SwiperSlide><img src={cloud} alt="udemy certificate"/></SwiperSlide>
-        <SwiperSlide><img src={azure} alt="udemy certificate"/></SwiperSlide>
-        <SwiperSlide><img src={routing} alt="cisco certificate"/></SwiperSlide>
-        <SwiperSlide><img src={itessentials} alt="cisco certificate"/></SwiperSlide>
-        <SwiperSlide><img src={fourthyr} alt="dean's list"/></SwiperSlide>   
-        <SwiperSlide><img src={thirdyr} alt="dean's list"/></SwiperSlide>
-        <SwiperSlide><img src={secondyr} alt="dean's list"/></SwiperSlide>
+        <SwiperSlide><img src={devops} className="swipe" alt="udemy certificate"/></SwiperSlide>
+        <SwiperSlide><img src={projmanage} className="swipe" alt="udemy certificate"/></SwiperSlide>
+        <SwiperSlide><img src={cloud} className="swipe" alt="udemy certificate"/></SwiperSlide>
+        <SwiperSlide><img src={azure} className="swipe" alt="udemy certificate"/></SwiperSlide>
+        <SwiperSlide><img src={routing} className="swipe" alt="cisco certificate"/></SwiperSlide>
+        <SwiperSlide><img src={itessentials} className="swipe" alt="cisco certificate"/></SwiperSlide>
+        <SwiperSlide><img src={fourthyr} className="swipe" alt="dean's list"/></SwiperSlide>   
+        <SwiperSlide><img src={thirdyr} className="swipe" alt="dean's list"/></SwiperSlide>
+        <SwiperSlide><img src={secondyr} className="swipe" alt="dean's list"/></SwiperSlide>
         
       </Swiper>
   

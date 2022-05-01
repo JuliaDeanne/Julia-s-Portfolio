@@ -31,22 +31,7 @@ body{
     background: linear-gradient(rgba(78, 64, 57, 0.95) 15%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
     opacity: 0.95;
   }
-  /* ----------- iPhone 6+, 7+ and 8+ ----------- */
-  @media only screen 
-    and (min-device-width: 414px) 
-    and (max-device-width: 736px) {
-      .img-fluid-me{ 
-        height: 50vh;
-      }
-    #hero {
-      padding-top: 40px;
-      padding-left: 100px;
-    }
-    .about{
-      margin: 0px 10px 0px 10px;
-    }
-   
-}
+  
  /* ----------- iPhone X  ----------- */
  @media only screen 
  and (min-device-width: 375px) 
@@ -55,6 +40,7 @@ body{
   .img-fluid-me{ 
     height: 50vh;
   }
+ 
  
 }
 /* ----------- iPad 1, 2, Mini and Air ----------- */
@@ -73,7 +59,7 @@ body{
     }
     
 }
-/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+/* ----------- Galaxy S4, S5, 8,Note 3 and Iphone 6plus-8plus----------- */
 
 /* Portrait and Landscape */
 @media only screen 
@@ -88,7 +74,7 @@ body{
     }
     #hero {
       padding-top: 40px;
-      padding-left: 20px;
+      padding-left: 25px;
     }
   }
 

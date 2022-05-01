@@ -11,7 +11,7 @@
  .title .color{
    color: white;
  }
-.service-block {
+ .skills-block {
     color: white;
     padding: 60px 20px;
     border-left: 1px solid rgba(236, 239, 241, 0.07);
@@ -21,15 +21,10 @@
     box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
   }
   
-  .service-block .service-icon {
+  .skills-block .skills-icon {
     margin-bottom: 10px;
     font-size: 50px;
   }
-  
-
-  
-  
-  
   /*=================================================================
     EXPERIENCE section
   ==================================================================*/
@@ -38,6 +33,20 @@
     width: 100%;
    
   }
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+  .img2-responsive{
+    height: 50h;
+    width: 35vh;
+  }
+  .sunlife{
+    height: 7vh;
+    width: 13vh;
+  }
+  
+}
   .school{
     height: 7vh;
     padding-bottom: 20px;
@@ -56,7 +65,7 @@
     opacity: 0.80;
   }
   .about-2 .content-block {
-    padding: 40px;
+    padding: 30px;
   }
   
   .about-2 .content-block .media {
@@ -67,38 +76,45 @@
     font-size: 16px;
     font-weight: 600;
   }
-  /* RESUME */
-  .swiper {
+  /* SWIPER, NO SWIPING! */
+  .swipe {
     margin: 20px 30px 20px 30px;
     width: 100%;
     height: 300px;
   }
   
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    margin:20px 20px 20px 20px;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
+  .swipe img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+ /* ----------- Galaxy S4, S5 S8, Note 3 and IPHONES ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 360px) 
+and (max-device-width: 740px){
+  .swipe {
+    width: 20vh;
+    height: 150px;
+  }
+ 
+  .swipe:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+}
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+    .swipe {
+      width: 25vh;
+      height: 30vh;
+    }
+   
+    .swipe:hover {
+      transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
   }
   

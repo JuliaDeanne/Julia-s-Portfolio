@@ -4,6 +4,43 @@
     color: white;
     
   }
+  /* ----------- Galaxy S4, S5, 8,Note 3 and Iphone 6plus-8plus----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 360px) 
+and (max-device-width: 740px){
+  /*top, right, bottom, left*/
+  .contact-form {
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+  .contact-info p {
+    margin-bottom: 25px;
+  }
+  .contact{
+      height: auto;
+      padding-top: 10px;
+      padding-bottom: 200px;
+      padding-left: 30px;
+  }
+  
+}
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
+    .contact-form {
+      padding-top: 0px;
+    }
+    .contact{
+      padding-top: 10px;
+      height: auto;
+      padding-bottom: 20px;
+      padding-left: 30px;
+  }
+    
+  }
   
   .contact-form .form-control {
     background-color: transparent;
@@ -11,6 +48,7 @@
     height: 60px;
     width: 75%;
     color: white;
+    
   }
   
   .contact-form textarea.form-control {
@@ -28,21 +66,18 @@
   #contact-submit {
     border: 1px solid rgba(236, 239, 241, 0.07);
     background: #97C1A9;
-   
     padding: 12px 0;
     width: 75%;
     margin: 0;
   }
   
-  
-  
   .contact-info p {
     margin-bottom: 25px;
   }
   .contact{
-      height: 650px;
-      padding-top: 100px;
-      padding-bottom: 200px;
+      height: auto;
+      padding-top: 90px;
+      padding-bottom: 90px;
       color: white;
       
   }
@@ -76,10 +111,6 @@
   .bi-facebook:hover, .bi-linkedin:hover{
     color: #97C1A9;
   }
-  
-  
-  
-  
   
     #contacts .btn-secondary {
      
