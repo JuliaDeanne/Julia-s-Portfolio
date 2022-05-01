@@ -1,5 +1,6 @@
+
 import React, {useState} from 'react';
-import Gallery from "./gallery";
+import Gallery from './gallery';
 
 
 const Projects = () => { 
@@ -30,7 +31,7 @@ const Projects = () => {
                <li className="filter-active" onClick={() => setItems(Gallery)}>All</li>
                <li onClick={() => filterItem('web')}>Web</li>
                <li onClick={() => filterItem('mobile')}>Mobile</li>
-               <li onClick={() => filterItem('thesis')}>Thesis</li>
+               <li onClick={() => filterItem('others')}>Others</li>
             </ul>
           </div>
         </div>
@@ -39,14 +40,25 @@ const Projects = () => {
           <div className="scrollmenu "> 
           {
             items.map((elem) => {
-            const { name, image, description, } = elem;
+            const { name, image, description, link } = elem;
 
             return(
             
-            <div className="cards col-lg-6">
-              
-             <img src={image} className="img-fluid" alt={image}/>
-             </div>
+            <div className="portfolio-item filter-app col-lg-4 offset-lg-1">
+              <div className="portfolio-wrap">              
+              <img src={image} className="img-fluid" alt={image}/>
+              <div className="portfolio-links">
+                {/* <a href={image} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bi bi-plus"></i></a> */}
+                <a href={link} className="portfolio-details" title="More Details"><i className="bi bi-link"></i></a>
+              </div>
+              <div className="portfolio-info">
+                <h4>{name}</h4>
+                <p>{description}</p>
+              </div>
+
+            </div>
+          </div>
+   
             )
           })
         }
@@ -57,6 +69,12 @@ const Projects = () => {
         
           </div>
           </section>
+          
+          
+
+
+
+          
 
         </>
 

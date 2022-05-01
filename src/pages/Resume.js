@@ -203,7 +203,8 @@ const Resume = () => {
         <SwiperSlide><img src={devops} alt="udemy certificate"/></SwiperSlide>
         <SwiperSlide><img src={projmanage} alt="udemy certificate"/></SwiperSlide>
         <SwiperSlide><img src={cloud} alt="udemy certificate"/></SwiperSlide>
-        <SwiperSlide><img src={azure} alt="cisco certificate"/></SwiperSlide>
+        <SwiperSlide><img src={azure} alt="udemy certificate"/></SwiperSlide>
+        <SwiperSlide><img src={routing} alt="cisco certificate"/></SwiperSlide>
         <SwiperSlide><img src={itessentials} alt="cisco certificate"/></SwiperSlide>
         <SwiperSlide><img src={fourthyr} alt="dean's list"/></SwiperSlide>   
         <SwiperSlide><img src={thirdyr} alt="dean's list"/></SwiperSlide>
