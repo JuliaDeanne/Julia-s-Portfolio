@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 
 //Router DOM
-import { Routes, Route, Link , BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
  
