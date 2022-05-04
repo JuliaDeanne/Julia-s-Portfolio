@@ -61,7 +61,7 @@ const AboutMe = () => {
             </div>
             <div>
             <a href={mycv} className="btn-primary" download="Bongayan_CV.pdf" target="_blank">DOWNLOAD CV</a>&nbsp;&nbsp;&nbsp;
-            <a href="/Contact" className="btn-secondary">HIRE ME</a>
+            <a href="Contact" className="btn-secondary">HIRE ME</a>
             </div>
             </div>
           </div>
