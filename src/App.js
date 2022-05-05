@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 
 //Router DOM
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
  
@@ -22,9 +22,9 @@ function App() {
         <Route path="/" element={<NavBar />}>
         <Route path="/" element={<AboutMe />}/>
         <Route path="/AboutMe" element={<AboutMe />} />
-        <Route path="Resume" element={<Resume />} />
-        <Route path="Projects" element={<Projects />} />
-        <Route path="Contact" element={<Contact />} />
+        <Route path="/Resume" element={<Resume />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Contact" element={<Contact />} />
        </Route>
       </Routes>
     </BrowserRouter>
