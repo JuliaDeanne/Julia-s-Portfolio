@@ -5,6 +5,7 @@ import catwoman from '../images/catwoman.gif';
 import ursula from'../images/ursula.gif';
 import camille from '../images/camille.gif';
 import mycv from '../files/Bongayan_CV.pdf';
+import { Outlet,Link} from "react-router-dom";
 const AboutMe = () => {
     return (
         <>
@@ -61,7 +62,10 @@ const AboutMe = () => {
             </div>
             <div>
             <a href={mycv} className="btn-primary" download="Bongayan_CV.pdf" target="_blank">DOWNLOAD CV</a>&nbsp;&nbsp;&nbsp;
-            <a href="/Contact" className="btn-secondary">HIRE ME</a>
+            <Link to ="/Contact" className="btn-secondary"  >
+                        Hire Me
+                    </Link>
+            {/* <a href="/Projects" >HIRE ME</a> */}
             </div>
             </div>
           </div>
