@@ -30,17 +30,17 @@ const NavBar = () => {
                 </li>
                 
                 <li className="nav-item offset-sm-3">
-                    <Link to ="/Resume" className="nav-link"  >
+                    <Link to ="/Resume" className="nav-link">
                         Resume
                     </Link>
                 </li>
                 <li className="nav-item offset-sm-3">
-                    <Link to ="/Projects" className="nav-link"  >
+                    <Link to ="/Projects" className="nav-link" >
                         Projects
                     </Link>
                 </li>
                 <li className="nav-item offset-sm-3">
-                    <Link to ="/Contact" className="nav-link"  >
+                    <Link to ="/Contact" className="nav-link" >
                         Contact
                     </Link>
                 </li>
